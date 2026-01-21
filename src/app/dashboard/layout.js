@@ -6,12 +6,13 @@ const alibabaPuHui = localFont({
     {
       path: "../../../public/font/youshe.ttf",
       weight: "400",
-      style: "normal"
-    }
+      style: "normal",
+    },
   ],
-  variable: "--font-youshe-biaoti",
+
+  variable: "--font-youshe",
   display: "swap",
-  preload: true
+  preload: true,
 });
 
 const layoutBg = "#080808";
@@ -21,13 +22,16 @@ function DashboardLayout({ children }) {
   return (
     <main
       style={{
-        background: layoutBg
+        background: layoutBg,
       }}
-      className="border border-blue-400 w-screen h-screen overflow-hidden ">
+      className={`border border-blue-400 w-screen h-screen overflow-hidden 
+       ${alibabaPuHui.variable}
+      `}
+    >
       {/* header */}
       <HeaderRC></HeaderRC>
-      {/* main */}
 
+      {/* main */}
       {children}
 
       {/* footer 没有*/}
