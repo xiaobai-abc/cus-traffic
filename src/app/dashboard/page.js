@@ -1,5 +1,8 @@
 import cn from "classnames";
 import AlarmBlock from "./ui/left/alarm";
+import CongestionBlock from "./ui/left/congestion";
+import WeatherBlock from "./ui/left/weather";
+
 // main
 function DashboardPage() {
   return (
@@ -8,8 +11,15 @@ function DashboardPage() {
       {/* 那就 左右定位布局把 */}
 
       {/* 左部分 */}
-      <div className="absolute left-0 top-0 w-[21vw] min-w-[420px] h-full pl-8">
+      <div
+        className={cn(
+          "absolute left-0 top-0 w-[21vw] min-w-[420px] h-full pl-8",
+          "space-y-3 flex flex-col"
+        )}
+      >
         <AlarmBlock></AlarmBlock>
+        <CongestionBlock></CongestionBlock>
+        <WeatherBlock></WeatherBlock>
       </div>
     </div>
   );

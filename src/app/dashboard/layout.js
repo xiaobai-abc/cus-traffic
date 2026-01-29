@@ -18,7 +18,7 @@ function DashboardLayout({ children }) {
         admin map
       </div> */}
       {/* 两层叠在一起 */}
-      <div className="absolute w-full h-full grid grid-rows-[auto_1fr] gap-y-4">
+      <div className="absolute w-full h-full grid grid-rows-[auto_1fr] gap-y-4.5 pt-4">
         {/* header */}
         <HeaderRC></HeaderRC>
 

@@ -78,12 +78,12 @@ function AlarmBlock() {
     <BlockRC
       title="接警数据"
       subtitle="Alarm Response Data"
-      contentClassName="backdrop-blur-2xl pb-2 pr-2"
+      contentClassName="backdrop-blur-2xl pb-3 pr-2 pt-1"
     >
       {/* echart */}
       <div className="flex">
-        <div className="w-[150px] h-[150px]" ref={chartDom}></div>
-        <div className="flex-1 ml-4 grid grid-cols-2 grid-rows-2 gap-5.5 pb-4 pt-2">
+        <div className="w-[150px] h-[170px]" ref={chartDom}></div>
+        <div className="flex-1 ml-4 grid grid-cols-2 grid-rows-2 gap-5.5 pb-6 pt-2">
           {["交通堵塞", "交通事故", "车辆故障", "异常天气"].map((e, index) => {
             return (
               <div className="flex" key={index}>
@@ -111,7 +111,7 @@ function AlarmBlock() {
           <span className="font-ali text-[#3BE3ED] text-2xl leading-none">
             8888
           </span>
-          <p className="text-sm text-white/70 leading-none mt-0.5">
+          <p className="text-sm text-white/70 leading-none mt-1.5">
             接警总数(条)
           </p>
         </div>
