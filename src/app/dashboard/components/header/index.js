@@ -6,7 +6,7 @@ import UserBlock from "./user";
 function HeaderRC() {
   return (
     <header
-      className={cn("h-15 bd", "flex items-center justify-between")}
+      className={cn("h-15", "flex items-center justify-between mx-2")}
       style={{
         background: "url('/image/header-bg.png') no-repeat",
         backgroundSize: "100% 100%"

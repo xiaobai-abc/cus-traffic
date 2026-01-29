@@ -10,15 +10,15 @@ function DashboardLayout({ children }) {
       style={{
         background: layoutBg
       }}
-      className={`w-screen h-screen overflow-hidden bd relative
+      className={`w-screen h-screen overflow-hidden relative
        ${youshe.variable} ${ali55.variable} ${pangmen.variable}
         flex flex-col
       `}>
-      <div className="h-full w-full flex items-center justify-center text-white ">
+      {/* <div className="h-full w-full flex items-center justify-center text-white ">
         admin map
-      </div>
+      </div> */}
       {/* 两层叠在一起 */}
-      <div className="absolute w-full h-full ">
+      <div className="absolute w-full h-full grid grid-rows-[auto_1fr] gap-y-4">
         {/* header */}
         <HeaderRC></HeaderRC>
 
