@@ -5,7 +5,6 @@ import { subscribeWithSelector } from "zustand/middleware";
 import dayjs from "dayjs";
 
 const TIME_FORMAT = "YYYY/MM/DD  ddd  HH:mm:ss";
-console.log(">>>>");
 
 const store = {
   initialState: {
