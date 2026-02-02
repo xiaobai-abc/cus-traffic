@@ -13,20 +13,23 @@ function DashboardLayout({ children }) {
       }}
       className={`w-screen h-screen overflow-hidden relative
        ${youshe.variable} ${ali55.variable} ${pangmen.variable}
-        flex flex-col
       `}
     >
-      <div className="h-full w-full flex items-center justify-center text-white ">
-        <MapContainer></MapContainer>
-      </div>
-      {/* 两层叠在一起 */}
-      <div className="absolute w-full h-full grid grid-rows-[auto_1fr] gap-y-4.5 pt-4">
-        {/* header */}
-        {/* <HeaderRC></HeaderRC> */}
+      <MapContainer></MapContainer>
 
-        {/* main */}
-        {children}
-      </div>
+      {/* 中间加一层透光的 */}
+      {/* <div
+        className="absolute w-screen h-screen op-0 left-0 right-0 bottom-0 pointer-events-none z-5"
+        style={{
+          background: `url('/image/layer.png') no-repeat`,
+          backgroundSize: "100% 100%",
+          backgroundPosition: "center"
+        }}
+      ></div> */}
+
+      {/* <HeaderRC></HeaderRC> */}
+
+      {/* {children} */}
     </main>
   );
 }

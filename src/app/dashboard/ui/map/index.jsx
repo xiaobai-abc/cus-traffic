@@ -7,18 +7,21 @@ import { useAMap } from "./hook";
 function MapContainer() {
   //   const [AMapLoader, setAMapLoader] = useState(null);
   const { AMapLoader, AMapLoad } = useAMap();
-  const { mapEX, setMapEX } = useState(null);
+  const [mapEX, setMapEX] = useState(null);
 
   useEffect(() => {
     if (AMapLoader) {
       AMapLoad().then((AMap) => {
-        console.log("init", AMap);
+        console.log("init");
         const map = new AMap.Map("container-amp", {
           zoom: 11,
           center: [116.397428, 39.90923]
-          //   mapStyle: "amap://styles/normal"
         });
-        // setMapEX(map);
+
+        setMapEX(map);
+
+        const toolBar = new AMap.ToolBar();
+        map.addControl(toolBar);
       });
     }
   }, [AMapLoader]);
