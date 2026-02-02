@@ -4,6 +4,7 @@ import CongestionBlock from "./ui/left/congestion";
 import WeatherBlock from "./ui/left/weather";
 import UnmannedBlock from "./ui/right/unmanned";
 import MotorcycleBlock from "./ui/right/motorcycle";
+import AntiDroneBlock from "./ui/right/anti-drone";
 
 // main
 function DashboardPage() {
@@ -33,6 +34,7 @@ function DashboardPage() {
       >
         <UnmannedBlock></UnmannedBlock>
         <MotorcycleBlock></MotorcycleBlock>
+        <AntiDroneBlock></AntiDroneBlock>
       </div>
     </div>
   );
