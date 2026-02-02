@@ -6,7 +6,7 @@ import ABg from "@/assets/a-b.png";
 function AntiDroneBlock() {
   return (
     <BlockRC
-      title="反无人机数据统计"
+      title="反无人机统计"
       subtitle="Anti-Drone Statistics"
       contentClassName="backdrop-blur-2xl py-4 px-4"
     >

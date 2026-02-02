@@ -8,6 +8,7 @@ function UnmannedBlock() {
   return (
     <BlockRC
       title="无人机统计"
+      className=""
       subtitle="Unmanned Aerial Vehicle Statistics"
       contentClassName="backdrop-blur-2xl"
     >
@@ -101,7 +102,7 @@ export default UnmannedBlock;
 
 function Deformation() {
   return (
-    <div className=" relative flex-1 pt-4 mr-4 h-fit">
+    <div className=" relative flex-1 pt-3 mr-4 h-fit">
       <p className="flex justify-center">
         <span className="font-c1">210</span>
         <span className="font-c2 pt-[5px]">次</span>
@@ -128,7 +129,7 @@ function Deformation() {
 }
 function Deformation1() {
   return (
-    <div className=" relative flex-1 pt-4 ml-4 h-fit">
+    <div className=" relative flex-1 pt-3 ml-4 h-fit">
       <p className="flex justify-center">
         <span className="font-c1">210</span>
         <span className="font-c2 pt-[5px]">次</span>
