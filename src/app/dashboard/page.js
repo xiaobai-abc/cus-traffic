@@ -3,6 +3,7 @@ import AlarmBlock from "./ui/left/alarm";
 import CongestionBlock from "./ui/left/congestion";
 import WeatherBlock from "./ui/left/weather";
 import UnmannedBlock from "./ui/right/unmanned";
+import MotorcycleBlock from "./ui/right/motorcycle";
 
 // main
 function DashboardPage() {
@@ -31,6 +32,7 @@ function DashboardPage() {
         )}
       >
         <UnmannedBlock></UnmannedBlock>
+        <MotorcycleBlock></MotorcycleBlock>
       </div>
     </div>
   );
