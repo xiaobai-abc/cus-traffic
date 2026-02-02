@@ -7,6 +7,7 @@ import MotorcycleBlock from "./ui/right/motorcycle";
 import AntiDroneBlock from "./ui/right/anti-drone";
 import MonitoringBlock from "./ui/right/monitoring";
 
+
 // main
 function DashboardPage() {
   return (
@@ -27,7 +28,7 @@ function DashboardPage() {
       </div> */}
 
       {/* 右部分 */}
-      <div
+      {/* <div
         className={cn(
           "absolute right-0 top-0 w-[21vw] min-w-[420px] h-full pr-8",
           "space-y-3 flex flex-col"
@@ -37,7 +38,7 @@ function DashboardPage() {
         <MotorcycleBlock></MotorcycleBlock>
         <AntiDroneBlock></AntiDroneBlock>
         <MonitoringBlock></MonitoringBlock>
-      </div>
+      </div> */}
     </div>
   );
 }

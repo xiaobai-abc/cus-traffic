@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
     "classnames": "^2.5.1",
     "dayjs": "^1.11.19",
     "echarts": "^6.0.0",
