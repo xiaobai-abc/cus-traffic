@@ -12,7 +12,7 @@ function DashboardPage() {
       {/* 那就 左右定位布局把 */}
 
       {/* 左部分 */}
-      <div
+      {/* <div
         className={cn(
           "absolute left-0 top-0 w-[21vw] min-w-[420px] h-full pl-8",
           "space-y-3 flex flex-col"
@@ -21,7 +21,7 @@ function DashboardPage() {
         <AlarmBlock></AlarmBlock>
         <CongestionBlock></CongestionBlock>
         <WeatherBlock></WeatherBlock>
-      </div>
+      </div> */}
 
       {/* 右部分 */}
       <div

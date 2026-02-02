@@ -26,3 +26,25 @@ body {
   color: var(--foreground);
   line-height: 1;
 }
+
+.font-c1 {
+  background: linear-gradient(180deg, #fff 0%, #f5e74f 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-family: ali;
+  font-weight: 900;
+  line-height: 1;
+  margin-right: 3px;
+}
+
+.font-c2 {
+  background: linear-gradient(180deg, #fff 0%, #5dd6ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 12px;
+  font-family: ali;
+  line-height: 1;
+}
