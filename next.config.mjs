@@ -14,7 +14,8 @@ const nextConfig = {
       { protocol: "http", hostname: "localhost" }
     ],
     formats: ["image/avif", "image/webp"], // 优先 AVIF/WebP
-    minimumCacheTTL: 60 // 缓存 60s
+    minimumCacheTTL: 60 ,// 缓存 60s
+    unoptimized : true
   },
   poweredByHeader: false,
   reactStrictMode: false,

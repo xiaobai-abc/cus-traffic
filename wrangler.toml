@@ -1,0 +1,12 @@
+name = "cus-traffic"
+compatibility_date = "2026-02-01"          # 或用今天日期如 "2026-02-03"，越新越好
+compatibility_flags = ["nodejs_compat"]    # 先试这个（v2 通常自动包含）
+
+main = ".open-next/worker.js"
+
+# 如果上面不行，改成这个（部分场景 v2 更稳）
+# compatibility_flags = ["nodejs_compat_v2"]
+
+[assets]
+directory = ".open-next/assets"          # OpenNext 生成的静态目录
+binding = "ASSETS"
