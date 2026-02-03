@@ -26,6 +26,49 @@ function DashboardPage() {
         </div>
       </div>
 
+      {/* 中上部分 */}
+      <div
+        className={cn(
+          "absolute ml-[21vw] mr-[21vw] left-0 right-0 top-25",
+          "flex justify-around z-11 px-10"
+        )}
+      >
+        {(() => {
+          const arr = [
+            {
+              title: "道路施工",
+              value: 12.52
+            },
+            {
+              title: "护航任务",
+              value: 5612
+            },
+            {
+              title: "赛会报章",
+              value: 1234
+            },
+            {
+              title: "非现场执法",
+              value: 25
+            }
+          ];
+          return (
+            <>
+              {arr.map((item, index) => (
+                <div key={index} className="text-center">
+                  <h5 className="text-white font-ali text-sm leading-none">
+                    {item.title}
+                  </h5>
+                  <span className="text-[#F5E74F] text-3xl font-pangmen leading-none">
+                    {item.value}
+                  </span>
+                </div>
+              ))}
+            </>
+          );
+        })()}
+      </div>
+
       {/* 右部分 */}
       <div
         className={cn(

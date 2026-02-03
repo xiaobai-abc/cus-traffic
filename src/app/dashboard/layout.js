@@ -15,7 +15,7 @@ function DashboardLayout({ children }) {
        ${youshe.variable} ${ali55.variable} ${pangmen.variable}
       `}
     >
-      <MapContainer></MapContainer>
+      {/* <MapContainer></MapContainer> */}
 
       {/* 中间加一层透光的 */}
       <div
