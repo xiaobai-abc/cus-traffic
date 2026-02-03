@@ -20,7 +20,7 @@ function useAMap() {
     return AMapLoader.load({
       key: "070788fed9d2e9cc46b2df0b5b9dfd7a",
       version: "2.0",
-      plugins: ["AMap.Scale", "AMap.ToolBar","AMap.Driving"],
+      plugins: ["AMap.Scale", "AMap.ToolBar","AMap.Driving","AMap.Polyline","AMap.Marker"],
       viewMode: "2D"
     });
   }
