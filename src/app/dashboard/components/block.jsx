@@ -20,14 +20,17 @@ function Block({
 }) {
   return (
     <div className={cn("flex flex-col overflow-hidden", className)}>
+      {/* TODO 背景未靠左 */}
       <h2
-        className="pl-10 py-3 flex items-center"
+        className="pl-12 py-3 flex items-center"
         style={{
           background: `url('${HeadBg.src}') no-repeat`,
-          backgroundSize: "100% 100%"
-        }}
-      >
-        <span className="font-pangmen mr-3 text-2xl text-[#D3F3FF] leading-none italic font-light tracking-widest">
+          // background: `url('/image/a.svg') no-repeat`,
+          // background: `url('/image/block-head.svg') no-repeat`,
+          backgroundSize: "100% 100%",
+          backgroundPosition: "left center",
+        }}>
+        <span className="font-pangmen mr-3 text-xl text-[#D3F3FF] leading-none italic font-light tracking-widest">
           {title}
         </span>
         <span className="font-ali text-xs text-white/60 italic font-light">

@@ -33,11 +33,11 @@ function AntiDroneBlock() {
             "-webkit-background-clip": "text",
             "-webkit-text-fill-color": "transparent"
           }}
-          className=" absolute text-xl font-ali font-bold top-10 left-1/2 -translate-x-1/2 "
+          className=" absolute text-[18px] font-ali font-bold top-11 left-1/2 -translate-x-1/2 "
         >
           98%
         </span>
-        <span className=" absolute bottom-0 left-1/2 text-white font-ali text-sm -translate-x-1/2">设备在线率</span>
+        <span className=" absolute bottom-0 left-1/2 text-white/70 font-ali text-sm -translate-x-1/2">设备在线率</span>
       </div>
     </BlockRC>
   );
@@ -46,7 +46,7 @@ function AntiDroneBlock() {
 function Bc({ title = "标题", v = "0" }) {
   return (
     <div className="text-right">
-      <h6 className="text-[rgba(176,235,255,0.70)] text-sm font-ali leading-none mb-0.5 whitespace-nowrap">
+      <h6 className="text-[rgba(176,235,255,0.60)] text-sm font-ali leading-none mb-0.5 whitespace-nowrap">
         {title}
       </h6>
       <span className="text-base font-ali text-[#9DE6FF] font-bold leading-none">

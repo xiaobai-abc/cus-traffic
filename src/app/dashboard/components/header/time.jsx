@@ -16,7 +16,7 @@ function TimeBlock() {
     // return () => clearInterval(interval);
   }, []);
 
-  return <div className="text-[#1FC6FF] pl-11 w-75">{time}</div>;
+  return <div className="text-[#1FC6FF] pl-11 w-75 text-base">{time}</div>;
 }
 
 export default TimeBlock;

@@ -14,9 +14,9 @@ function DashboardPage() {
       {/* 左部分 */}
       <div
         className={cn(
-          "absolute left-0 top-0 w-[21vw] min-w-[420px] h-screen pl-8",
+          "absolute left-0 top-0 w-[21vw] min-w-[420px] h-screen pl-4",
           "space-y-3",
-          "pt-16 z-10"
+          "pt-18 z-10"
         )}
       >
         <div className="h-full w-full flex flex-col">
@@ -72,9 +72,9 @@ function DashboardPage() {
       {/* 右部分 */}
       <div
         className={cn(
-          "absolute right-0 top-0 w-[21vw] min-w-[420px] h-screen pr-8",
+          "absolute right-0 top-0 w-[21vw] min-w-[420px] h-screen pr-4",
           "space-y-3",
-          "pt-16 z-10"
+          "pt-18 z-10"
         )}
       >
         <div className="h-full w-full flex flex-col">

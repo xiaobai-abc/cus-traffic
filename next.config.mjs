@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
   turbopack: {
     rules: {
       "*.svg": {
@@ -31,7 +32,9 @@ const nextConfig = {
       }
     ];
   },
-  experimental: {}
+  experimental: {},
+  // basePath: '',
+  // assetPrefix: process.env.NODE_ENV === 'production' ? './' : '',
 };
 
 export default nextConfig;

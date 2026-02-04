@@ -16,7 +16,7 @@ function HeaderRC() {
       }}
     >
       <TimeBlock></TimeBlock>
-      <h2 className="font-ali text-white text-3xl">交通数据可视化平台</h2>
+      <h2 className="font-ali text-white text-2xl tracking-[2px]">交通数据可视化平台</h2>
       <UserBlock></UserBlock>
     </header>
   );

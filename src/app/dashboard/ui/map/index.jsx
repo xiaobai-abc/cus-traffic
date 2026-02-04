@@ -145,8 +145,8 @@ function MapContainer() {
   }
 
   return (
-    <div className="h-full w-full">
-      <div id="container-amp" className="h-full w-full"></div>
+    <div className="h-full w-full bg-[#02171C]">
+      <div id="container-amp" className="h-full w-full bg-[#02171C]"></div>
     </div>
   );
 }

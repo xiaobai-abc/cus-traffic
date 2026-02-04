@@ -20,11 +20,11 @@ function CongestionBlock() {
         <span className="ml-1 mr-auto text-base text-[#38D9E3] leading-none">
           拥堵地点
         </span>
-        <span className="text-white/70 text-sm leading-none">
+        <span className="text-white/70 text-xs leading-none">
           数据更新时间: 12:00:00
         </span>
       </div>
-      <div className="flex items-center justify-between mx-3 py-3 border-b border-b-white/30">
+      <div className="flex items-center justify-between mx-3 py-3 border-b border-b-white/10">
         <div className="">
           <span className="text-[#88F8FF] text-base leading-none">
             某某街道-某某路段218号
@@ -39,7 +39,7 @@ function CongestionBlock() {
           alt=""
         />
       </div>
-      <div className="mx-3 py-4 space-y-5 border-b border-b-white/30">
+      <div className="mx-3 py-4 space-y-5 border-b border-b-white/10">
         <TabItem title="实时拥堵等级" value="3级"></TabItem>
         <TabItem
           title="拥堵里程"

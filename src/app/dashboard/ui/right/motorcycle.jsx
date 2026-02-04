@@ -18,7 +18,7 @@ function MotorcycleBlock() {
     <BlockRC
       title="铁骑数据统计"
       subtitle="Motorcycle Statistics"
-      contentClassName="backdrop-blur-2xl px-2"
+      contentClassName="backdrop-blur-2xl px-2 mb-2"
     >
       <div className="flex items-center gap-2 mb-4">
         <span className="text-sm text-white/70 leading-none whitespace-nowrap">处理事件总数</span>
@@ -31,7 +31,7 @@ function MotorcycleBlock() {
       </div>
       <div className="flex items-center mb-6">
         <i className="text-[#3BE3ED] mr-1.5">•</i>
-        <span className="text-[#B0EBFF] text-sm font-ali leading-none whitespace-nowrap">
+        <span className="text-[#B0EBFF]/80 text-sm font-ali leading-none whitespace-nowrap">
           在线数量/总数
         </span>
         <TechProgressBar></TechProgressBar>
@@ -50,7 +50,7 @@ function MotorcycleBlock() {
       </div>
       <div className="flex items-center mb-2">
         <i className="text-[#3BE3ED] mr-1.5">•</i>
-        <span className="text-[#B0EBFF] text-sm font-ali leading-none whitespace-nowrap">
+        <span className="text-[#B0EBFF]/80 text-sm font-ali leading-none whitespace-nowrap">
           相应速度/总数
         </span>
         <TechProgressBar t="2"></TechProgressBar>
@@ -87,7 +87,7 @@ function NumBlock({ num }) {
       <span
         style={{
           textShadow: "0 4px 6px rgba(113, 155, 180, 0.51)",
-          fontSize: "32px"
+          fontSize: "28px"
         }}
         className="font-ali leading-none text-[#D6E9FF]"
       >

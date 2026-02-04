@@ -27,6 +27,20 @@ export const ali55 = localFont({
   display: "swap",
   preload: true
 });
+export const ali85 = localFont({
+  src: [
+    {
+      path: "./ali85.ttf",
+      weight: "400",
+      style: "normal"
+    }
+  ],
+
+  variable: "--font-ali-85",
+  display: "swap",
+  preload: true
+});
+
 export const pangmen = localFont({
   src: [
     {
