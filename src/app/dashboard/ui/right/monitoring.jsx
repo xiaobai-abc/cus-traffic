@@ -9,7 +9,7 @@ function MonitoringBlock() {
       title="监控统计"
       className="flex-[1_1_0%] h-0 flex flex-col"
       subtitle="Monitoring Statistics"
-      contentClassName="backdrop-blur-2xl flex-[1_1_0%] h-0 flex flex-col px-2 pb-2"
+      contentClassName="backdrop-blur-2xl flex-[1_1_0%] h-0 flex flex-col pb-2"
     >
       <div className="flex gap-x-2.5 mb-1.5">
         <div

@@ -14,7 +14,7 @@ function UnmannedBlock() {
       <div
         className="h-full relative pt-6 px-3 pb-2"
         style={{
-          background: `url("/image/u/u-t.png"),url("/image/u/u-bg.png")`,
+          background: `url("/image/u/u-t.png"),url("/image/u/u-bg1.png")`,
           backgroundRepeat: "no-repeat,no-repeat",
           backgroundPosition: "center top",
           backgroundSize: "auto , 100% 100%"
@@ -31,7 +31,7 @@ function UnmannedBlock() {
               </span>
               <Deformation></Deformation>
             </div>
-            <div className="flex items-center border-t border-dashed border-t-white/20 pt-1 mt-2.5 justify-between">
+            <div className="flex items-center border-t border-dashed border-t-white/20 pt-2 mt-2.5 justify-between">
               <span className="text-white/70 text-xs whitespace-nowrap">
                 同比
               </span>
@@ -54,7 +54,7 @@ function UnmannedBlock() {
                 本月
               </span>
             </div>
-            <div className="flex items-center border-t border-dashed border-t-white/20 pt-1 mt-2.5 justify-between">
+            <div className="flex items-center border-t border-dashed border-t-white/20 pt-2 mt-2.5 justify-between">
               <span className="text-white/70 text-xs whitespace-nowrap">
                 同比
               </span>
@@ -74,7 +74,7 @@ function UnmannedBlock() {
           <div
             className="pl-3.5 py-3 flex items-center flex-1"
             style={{
-              background: `url("/image/u/u-line.svg")`,
+              background: `url("/image/u/u-line.png")`,
               backgroundRepeat: "no-repeat",
               backgroundSize: "100% 100%",
               backgroundPosition: "0 0"
@@ -89,7 +89,7 @@ function UnmannedBlock() {
           <div
             className="pr-3.5 py-3 flex items-center flex-1 justify-end"
             style={{
-              background: `url("/image/u/u-line-h.svg")`,
+              background: `url("/image/u/u-line-h.png") no-repeat`,
               backgroundRepeat: "no-repeat",
               backgroundSize: "100% 100%",
               backgroundPosition: "0 0"

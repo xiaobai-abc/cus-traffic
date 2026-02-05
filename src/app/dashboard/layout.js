@@ -13,7 +13,7 @@ function DashboardLayout({ children }) {
       className={`w-screen h-screen overflow-hidden relative
        ${youshe.variable} ${ali55.variable} ${pangmen.variable} ${ali85.variable}
       `}>
-      {/* <MapContainer></MapContainer> */}
+      <MapContainer></MapContainer>
 
       {/* 中间加一层透光的 */}
       <div

@@ -89,7 +89,7 @@ function NumBlock({ num }) {
           textShadow: "0 4px 6px rgba(113, 155, 180, 0.51)",
           fontSize: "28px"
         }}
-        className="font-ali leading-none text-[#D6E9FF]"
+        className="font-ali-85 font-bold leading-none text-[#D6E9FF]"
       >
         {num ?? 0}
       </span>

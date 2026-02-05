@@ -16,7 +16,7 @@ function DashboardPage() {
         className={cn(
           "absolute left-0 top-0 w-[21vw] min-w-[420px] h-screen pl-4",
           "space-y-3",
-          "pt-18 z-10"
+          "pt-16 z-10"
         )}
       >
         <div className="h-full w-full flex flex-col">
@@ -29,7 +29,7 @@ function DashboardPage() {
       {/* 中上部分 */}
       <div
         className={cn(
-          "absolute ml-[21vw] mr-[21vw] left-0 right-0 top-25",
+          "absolute ml-[21vw] mr-[21vw] left-0 right-0 top-23",
           "flex justify-around z-11 px-10"
         )}
       >
@@ -44,7 +44,7 @@ function DashboardPage() {
               value: 5612
             },
             {
-              title: "赛会报章",
+              title: "赛会保障",
               value: 1234
             },
             {
@@ -74,7 +74,7 @@ function DashboardPage() {
         className={cn(
           "absolute right-0 top-0 w-[21vw] min-w-[420px] h-screen pr-4",
           "space-y-3",
-          "pt-18 z-10"
+          "pt-16 z-10"
         )}
       >
         <div className="h-full w-full flex flex-col">

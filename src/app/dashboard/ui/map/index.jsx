@@ -131,9 +131,9 @@ function MapContainer() {
           title: "终点",
           anchor: "bottom-center",
           icon: new AMap.Icon({
-            size: new AMap.Size(55, 60),
+            size: new AMap.Size(40, 50),
             image: "/image/map/end.svg",
-            imageSize: new AMap.Size(55, 60)
+            imageSize: new AMap.Size(40, 50)
           })
         });
 

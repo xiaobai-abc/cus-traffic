@@ -35,7 +35,7 @@ function CongestionBlock() {
         </div>
         <img
           className="w-[77px] h-[30px] cursor-pointer"
-          src="/image/call.png"
+          src="/image/call.svg"
           alt=""
         />
       </div>
