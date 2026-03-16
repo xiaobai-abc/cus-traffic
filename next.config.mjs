@@ -1,6 +1,14 @@
+const rawBasePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+const basePath =
+  rawBasePath && rawBasePath !== "/"
+    ? `/${rawBasePath}`.replace(/\/+/g, "/").replace(/\/$/, "")
+    : "";
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+  basePath,
+  trailingSlash: true,
   turbopack: {
     rules: {
       "*.svg": {
@@ -33,8 +41,6 @@ const nextConfig = {
     ];
   },
   experimental: {},
-  // basePath: '',
-  // assetPrefix: process.env.NODE_ENV === 'production' ? './' : '',
 };
 
 export default nextConfig;
