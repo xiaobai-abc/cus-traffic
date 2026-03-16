@@ -1,5 +1,3 @@
-"use client";
-
 import BlockRC from "../../components/block";
 import ABg from "@/assets/a-b.png";
 

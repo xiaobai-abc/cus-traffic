@@ -1,4 +1,3 @@
-"use client";
 import UserSvg from "@/svgs/user.svg";
 import CaretDownSvg from "@/svgs/caretdown.svg";
 

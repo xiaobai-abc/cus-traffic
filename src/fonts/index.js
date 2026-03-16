@@ -11,7 +11,7 @@ export const youshe = localFont({
 
   variable: "--font-youshe",
   display: "swap",
-  preload: true
+  preload: false
 });
 
 export const ali55 = localFont({
@@ -38,7 +38,7 @@ export const ali85 = localFont({
 
   variable: "--font-ali-85",
   display: "swap",
-  preload: true
+  preload: false
 });
 
 export const pangmen = localFont({
@@ -52,5 +52,5 @@ export const pangmen = localFont({
 
   variable: "--font-pangmen",
   display: "swap",
-  preload: true
+  preload: false
 });

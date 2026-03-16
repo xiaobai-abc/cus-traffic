@@ -1,6 +1,6 @@
-import { youshe, ali55, pangmen, ali85 } from "@/fonts/index";
+import { ali55, pangmen, ali85 } from "@/fonts/index";
 import HeaderRC from "./components/header";
-import MapContainer from "./ui/map/index";
+import MapEntry from "./ui/map/map-entry";
 
 //   "linear-gradient(180deg, rgba(16, 21, 32, 0.00) 0%, rgba(18, 21, 29, 0.77) 24.87%, #12151E 45.86%, rgba(17, 20, 29, 0.79) 74.71%, rgba(16, 21, 32, 0.00) 92.62%);url";
 
@@ -11,9 +11,9 @@ function DashboardLayout({ children }) {
         background: "#02171C"
       }}
       className={`w-screen h-screen overflow-hidden relative
-       ${youshe.variable} ${ali55.variable} ${pangmen.variable} ${ali85.variable}
+       ${ali55.variable} ${pangmen.variable} ${ali85.variable}
       `}>
-      <MapContainer></MapContainer>
+      <MapEntry></MapEntry>
 
       {/* 中间加一层透光的 */}
       <div

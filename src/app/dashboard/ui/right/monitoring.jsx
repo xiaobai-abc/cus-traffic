@@ -1,4 +1,3 @@
-"use client";
 import BlockRC from "../../components/block";
 import M1Svg from "@/svgs/m1.svg";
 import M2Svg from "@/svgs/m2.svg";

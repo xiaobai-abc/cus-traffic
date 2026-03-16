@@ -1,4 +1,3 @@
-"use client";
 import BlockRC from "../../components/block";
 import cn from "classnames";
 import AUp from "@/svgs/aup.svg";

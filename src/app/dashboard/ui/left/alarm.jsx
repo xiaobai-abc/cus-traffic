@@ -1,80 +1,8 @@
-"use client";
-import { useEffect, useRef } from "react";
 import BlockRC from "../../components/block";
 import cn from "classnames";
-import * as echarts from "echarts";
-
-const option = {
-  graphic: {
-    // 中间图标
-    elements: [
-      {
-        type: "image",
-        left: "center",
-        top: "center",
-        style: { image: "/image/ud.png", width: 42, height: 42 }
-      }
-    ]
-  },
-  series: [
-    // 外层装饰虚线圈
-    // {
-    //   type: 'gauge',
-    //   radius: '85%',
-    //   splitNumber: 40,
-    //   axisLine: { show: false },
-    //   splitLine: { length: 4, lineStyle: { color: 'rgba(255,255,255,0.2)', width: 2 } },
-    //   axisTick: { show: false }, axisLabel: { show: false }
-    // },
-    // 核心配色环
-    {
-      type: "pie",
-      radius: ["67%", "75%"],
-      padAngle: 2, // 间隙
-      itemStyle: { borderRadius: 0 },
-      label: { show: false },
-      data: [
-        { value: 30, itemStyle: { color: "#DDBA55" } },
-        { value: 20, itemStyle: { color: "#17B7D4" } },
-        { value: 40, itemStyle: { color: "#3A90E9" } },
-        { value: 10, itemStyle: { color: "#5372e0" } }
-      ]
-    },
-    {
-      type: "pie",
-      radius: ["54%", "75%"],
-      padAngle: 2, // 间隙
-      itemStyle: { borderRadius: 0 },
-      label: { show: false },
-      data: [
-        { value: 30, itemStyle: { color: "rgba(221,186,85,0.3)" } },
-        { value: 20, itemStyle: { color: "rgba(23,183,212,0.3)" } },
-        { value: 40, itemStyle: { color: "rgba(58,144,233,0.3)" } },
-        { value: 10, itemStyle: { color: "rgba(83,114,224,0.3)" } }
-      ]
-    },
-    // 内层阴影环
-    {
-      type: "pie",
-      radius: ["40%", "44%"],
-      silent: true,
-      itemStyle: { color: "#032026" },
-      data: [1]
-    }
-  ]
-};
+import AlarmChart from "./alarm-chart";
 
 function AlarmBlock() {
-  const chartDom = useRef();
-  useEffect(() => {
-    if (chartDom.current) {
-      const chart =
-        echarts.getInstanceByDom(chartDom.current) ||
-        echarts.init(chartDom.current);
-      chart.setOption(option);
-    }
-  }, []);
-
   return (
     <BlockRC
       title="接警数据"
@@ -82,7 +10,7 @@ function AlarmBlock() {
       contentClassName="backdrop-blur-2xl pb-3 pr-2 pt-1">
       {/* echart */}
       <div className="flex">
-        <div className="w-[150px] h-[170px]" ref={chartDom}></div>
+        <AlarmChart></AlarmChart>
         <div className="flex-1 ml-4 grid grid-cols-2 grid-rows-2 gap-5.5 pb-6 pt-2">
           {[
             { title: "交通堵塞", color: "#3BE3ED" },

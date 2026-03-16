@@ -1,4 +1,3 @@
-import {} from "react";
 import cn from "classnames";
 import TimeBlock from "./time";
 import UserBlock from "./user";

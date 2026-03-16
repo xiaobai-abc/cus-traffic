@@ -1,7 +1,10 @@
-import Image from "next/image";
-import { redirect, permanentRedirect } from "next/navigation";
-export default function Home() {
-  permanentRedirect(`/dashboard`); // Navigate to the new post page
+import DashboardLayout from "./dashboard/layout";
+import DashboardView from "./dashboard/dashboard-view";
 
-  // return <div className="border-red-400 w-full h-full">123</div>;
+export default function Home() {
+  return (
+    <DashboardLayout>
+      <DashboardView></DashboardView>
+    </DashboardLayout>
+  );
 }

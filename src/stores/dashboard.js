@@ -3,8 +3,10 @@
 import { create } from "zustand";
 import { subscribeWithSelector } from "zustand/middleware";
 import dayjs from "dayjs";
+import "dayjs/locale/zh-cn";
 
 const TIME_FORMAT = "YYYY/MM/DD  ddd  HH:mm:ss";
+dayjs.locale("zh-cn");
 
 const store = {
   initialState: {

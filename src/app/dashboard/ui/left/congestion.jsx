@@ -1,5 +1,3 @@
-"use client";
-import { useEffect, useRef } from "react";
 import BlockRC from "../../components/block";
 import PaSvg from "@/svgs/pa.svg";
 
